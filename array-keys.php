@@ -15,6 +15,6 @@ $ceu = array( "Italy"=>"Rome", "Luxembourg"=>"Luxembourg",
 asort($ceu) ;
 foreach($ceu as $country => $capital)
 {
-echo "The capital of $country is $capital"."\n" ;
+echo "The capital of $country is $capital"."<br>" ;
 }
 ?>
