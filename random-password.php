@@ -5,16 +5,16 @@ function rand_Pass($upper = 1, $lower = 5, $numeric = 3, $other = 2) {
     $passWord = '';
     
     //
-    for ($1 = 0; $i < $upper; $i++) {
+    for ($i = 0; $i < $upper; $i++) {
         $pass_order[] = chr(rand(65,90));
     }
-    for ($1 = 0; $i < $lower; $i++) {
+    for ($i = 0; $i < $lower; $i++) {
         $pass_order[] = chr(rand(97,122));
     }
-    for ($1 = 0; $i < $numeric; $i++) {
+    for ($i = 0; $i < $numeric; $i++) {
         $pass_order[] = chr(rand(48,57));
     }
-    for ($1 = 0; $i < $other; $i++) {
+    for ($i = 0; $i < $other; $i++) {
         $pass_order[] = chr(rand(33,47));
     }
     
